@@ -64,7 +64,7 @@ The input directory should contain domain files. For each domain, there should b
 The input directory should also contain a knowledge file, in which each line represents a must-set (i.e., a set of words that should appear together under the same topic).
 
 ### Output
-The output directory contains topic model results for each learning iteration. LearningIteration 0 is always LDA, i.e., without any knowledge. LearningIteration 1 is GK-LDA with the input knowledge.
+The output directory contains topic model results for each learning iteration. LearningIteration 0 is always LDA, i.e., without any knowledge. LearningIteration 1 is GK-LDA with the input knowledge. LDA is run first in order to construct word correlation metric used in GK-LDA.
 
 Under each learning iteration folder and sub-folder "DomainModels", there are a list of domain folders where each domain folder contains topic model results for each domain. Under each domain folder, there are 6 files (can be opened by text editors):
 
