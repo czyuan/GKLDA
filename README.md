@@ -48,6 +48,7 @@ Then, 2 quick start options are available:
 The commandline arguments are stored in the file "global/CmdOption.java". If no argument is provided, the program uses the default arguments. There are several arguments that are subject to change:
 
 1. -i: the path of input domains directory.
+2. -know: the file path of input knowledge file.
 2. -o: the path of output model directory.
 3. -nthreads: the number of threads used in the program. The program runs in parallel supporting multithreading.
 4. -nTopics: the number of topics used in Topic Model for each domain.
