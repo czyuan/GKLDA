@@ -7,12 +7,12 @@ If you use this package, please cite the paper: Zhiyuan Chen, Arjun Mukherjee, B
 If you have any question or bug report, please send it to Zhiyuan (Brett) Chen (czyuanacm@gmail.com).
 
 Table of Contents
-Quick Start
-Commandline Arguments
-Input and Output
-Contact Information
+1. Quick Start
+2. Commandline Arguments
+3. Input and Output
+4. Contact Information
 
-Quick Start
+1. Quick Start
 
 First, Clone the repo: git clone https://github.com/czyuan/GKLDA.git.
 
@@ -40,7 +40,7 @@ d. Run the program.
 
 mvn exec:java -Dexec.mainClass="launch.MainEntry"
 
-Commandline Arguments
+2. Commandline Arguments
 
 The commandline arguments are stored in the file "global/CmdOption.java". If no argument is provided, the program uses the default arguments. There are several arguments that are subject to change:
 
@@ -50,7 +50,7 @@ The commandline arguments are stored in the file "global/CmdOption.java". If no 
 -nthreads: the number of threads used in the program. The program runs in parallel supporting multithreading.
 -nTopics: the number of topics used in Topic Model for each domain.
 
-Input and Output
+3. Input and Output
 
 Input
 
@@ -73,7 +73,7 @@ domain.twdist: topic-word distribution
 domain.twords: top words under each topic. The columns are separated by '\t' where each column corresponds to each topic.
 domain.vocab: mapping from word id (starting from 0) to word.
 
-Contact Information
+4. Contact Information
 
 Author: Zhiyuan (Brett) Chen
 Affiliation: University of Illinois at Chicago
