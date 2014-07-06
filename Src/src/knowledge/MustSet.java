@@ -65,7 +65,7 @@ public class MustSet implements Iterable<String> {
 
 	@Override
 	public String toString() {
-		return wordset.toString();
+		return "{" + wordset.toString() + "}";
 	}
 
 	@Override
