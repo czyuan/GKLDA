@@ -3,7 +3,7 @@ GK-LDA (r General Knowledge based LDA))
 
 GK-LDA is an open-source Java package implementing the algorithm proposed in the paper (Chen et al., CIKM 2013), created by [Zhiyuan (Brett) Chen](http://www.cs.uic.edu/~zchen/). For more details, please refer to [this paper](http://www.cs.uic.edu/~zchen/papers/CIKM2013-Zhiyuan(Brett)Chen.pdf).
 
-If you use this package, please cite the paper: __Zhiyuan Chen, Arjun Mukherjee, Bing Liu, Meichun Hsu, Malu Castellanos, and Riddhiman Ghosh. Discovering Coherent Topics Using General Knowledge. In Proceedings of _CIKM 2013_, pages 209-218.__.
+If you use this package, please cite the paper: __Zhiyuan Chen, Arjun Mukherjee, Bing Liu, Meichun Hsu, Malu Castellanos, and Riddhiman Ghosh. Discovering Coherent Topics Using General Knowledge. In Proceedings of _CIKM 2013_, pages 209-218.__
 
 If you have any question or bug report, please send it to Zhiyuan (Brett) Chen (czyuanacm@gmail.com).
 
