@@ -1,4 +1,4 @@
-GK-LDA (r General Knowledge based LDA))
+GK-LDA (General Knowledge based LDA))
 ===
 
 GK-LDA is an open-source Java package implementing the algorithm proposed in the paper (Chen et al., CIKM 2013), created by [Zhiyuan (Brett) Chen](http://www.cs.uic.edu/~zchen/). For more details, please refer to [this paper](http://www.cs.uic.edu/~zchen/papers/CIKM2013-Zhiyuan(Brett)Chen.pdf).
