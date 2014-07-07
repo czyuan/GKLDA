@@ -59,7 +59,7 @@ The commandline arguments are stored in the file "global/CmdOption.java". If no 
 The input directory should contain domain files. For each domain, there should be 2 files (can be opened by text editors):
 
 1. domain.docs: each line (representing a document) contains a list of word ids.
-2. domain.vocab: mapping from word id (starting from 0) to word.
+2. domain.vocab: mapping from word id (starting from 0) to word, separated by ":".
 
 The input directory should also contain a knowledge file, in which each line represents a must-set (i.e., a set of words that should appear together under the same topic).
 
